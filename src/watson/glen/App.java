@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.Toast;
 
-public abstract class App {
+public class App {
 	
 	static final String TAG = "watson.glen";
 	
