@@ -1,3 +1,10 @@
+.settings/
+AndroidManifest.xml
+res/
+libs/
+proguard-project.txt
+project.properties
+
 # built application files
 *.apk
 *.ap_
