@@ -11,9 +11,9 @@ import android.widget.Toast;
 
 public class App {
 	
-	static final String TAG = "watson.glen";
+	protected static final String TAG = "watson.glen";
 	
-	static final boolean debug = false;
+	protected static final boolean debug = false;
 	
 	public static void toast(Context c, String msg) {
 		shortToast(c, msg);
