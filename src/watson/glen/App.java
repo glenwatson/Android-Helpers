@@ -27,41 +27,41 @@ public class App {
 		Toast.makeText(c, msg, Toast.LENGTH_LONG).show();
 	}
 	
-	public static void d(String msg) {
-		Log.d(TAG, msg);
+	public static void d(Object obj) {
+		Log.d(TAG, obj+"");
 	}
 	
-	public static void d(String msg, boolean condition) {
+	public static void d(Object obj, boolean condition) {
 		if(condition)
-			Log.d(TAG, msg);
+			Log.d(TAG,obj+"");
 	}
 	
-	public static void i(String msg) {
-		Log.i(TAG, msg);
+	public static void i(Object obj) {
+		Log.i(TAG,obj+"");
 	}
 	
-	public static void v(String msg) {
-		Log.v(TAG, msg);
+	public static void v(Object obj) {
+		Log.v(TAG, obj+"");
 	}
 	
-	public static void v(String msg, Throwable t) {
-		Log.v(TAG, msg, t);
+	public static void v(Object obj, Throwable t) {
+		Log.v(TAG, obj+"", t);
 	}
 	
-	public static void w(String msg) {
-		Log.w(TAG, msg);
+	public static void w(Object obj) {
+		Log.w(TAG, obj+"");
 	}
 	
-	public static void w(String msg, Throwable t) {
-		Log.w(TAG, msg, t);
+	public static void w(Object obj, Throwable t) {
+		Log.w(TAG, obj+"", t);
 	}
 	
-	public static void e(String msg) {
-		Log.e(TAG, msg);
+	public static void e(Object obj) {
+		Log.e(TAG, obj+"");
 	}
 	
-	public static void e(String msg, Throwable t) {
-		Log.e(TAG, msg, t);
+	public static void e(Object obj, Throwable t) {
+		Log.e(TAG, obj+"", t);
 	}
 	
 	/**
