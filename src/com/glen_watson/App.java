@@ -1,4 +1,4 @@
-package watson.glen;
+package com.glen_watson;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class App {
 	
-	protected static final String TAG = "watson.glen";
+	protected static final String TAG = "com.glen_watson";
 	
 	protected static final boolean debug = false;
 	
@@ -33,11 +33,11 @@ public class App {
 	
 	public static void d(Object obj, boolean condition) {
 		if(condition)
-			Log.d(TAG,obj+"");
+			Log.d(TAG, obj+"");
 	}
 	
 	public static void i(Object obj) {
-		Log.i(TAG,obj+"");
+		Log.i(TAG, obj+"");
 	}
 	
 	public static void v(Object obj) {
